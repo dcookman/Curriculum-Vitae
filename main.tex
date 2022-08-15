@@ -1,0 +1,145 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.1 (9/12/12)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same 
+% directory as this .tex file. These files provide the resume style and themes 
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[10pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+
+\moderncvstyle{classic} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{black} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+
+\usepackage[scale=0.85]{geometry} % Reduce document margins
+%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+\renewcommand{\listitemsymbol}{-~} % Changes the symbol used for lists
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{Daniel} % Your first name
+\familyname{Cookman} % Your last name
+
+% All information in this block is optional, comment out any lines you don't need
+%\title{Curriculum Vitae}
+\address{35 Brentbridge Road}{Manchester, M14 6AU}
+\mobile{07964 810 118}
+%\phone{(000) 111 1112}
+%\fax{(000) 111 1113}
+\email{daniel.cookman@student.manchester.ac.uk}
+%\homepage{staff.org.edu/~jsmith}{staff.org.edu/$\sim$jsmith} % The first argument is %the url for the clickable link, the second argument is the url displayed in the %template - this allows special characters to be displayed such as the tilde in this %example
+%\extrainfo{additional information}
+%\photo[70pt][0.4pt]{picture} % The first bracket is the picture height, the second is %the thickness of the frame around the picture (0pt for no frame)
+%\quote{Seeking a Job Opportunity or a PhD Placement by the 10th of September - 23 years old}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	COVER LETTER
+%----------------------------------------------------------------------------------------
+
+% To remove the cover letter, comment out this entire block
+%\recipient{Particle Physics Group}{University of Manchester\\Oxford Road\\Manchester, M13 9PL} % Letter recipient
+%\date{April 2018} % Letter date
+%\opening{Dear Dr.~Andrzej Szelc,} % Opening greeting
+%\closing{Sincerely yours,} % Closing phrase
+%\enclosure[Attached]{curriculum vit\ae{}} % List of enclosed documents
+
+%\makelettertitle % Print letter title
+
+%As a third-year physicist here at the University of Manchester, I am particularly interested in applying for a particle physics summer internship. Following on from a discussion with you earlier this year, I am pleased to enclose a copy of my CV.
+
+%The Particle Physics Group is renowned for its cutting-edge research, notably as part of the international collaboration of scientists searching for Beyond Standard Model physics. After talking to you about your work into the development of liquid argon detectors for neutrino experiments, I was really encouraged to look at neutrino physics as a career path. This idea was cemented by the recent talk by Nigel Lockyer on Fermilab's aim to become the epicentre of global neutrino research. It was inspiring to see the experiments that were being planned (such as DUNE) to try and answer numerous fundamental questions we have about the Universe. 
+
+%Because of all this, applying for a summer placement here seemed the perfect opportunity. As can be seen from my CV and academic record, I am a very capable student with a strong understanding of many areas of physics. Not only do I have an excellent control of mathematics, I am able to apply this to both practical and theoretical physics. Some of my strongest marks have been in theoretical modules such as \textit{Mathematical Fundamentals of Quantum Mechanics}, whilst I also consistently obtain first-class marks in my laboratory work.
+
+%One of my favourite parts of doing undergraduate labs has been the mixing of different elements of my degree together. As an example, for my previous third-year experiment on Michelson spectroscopy I had to understand not only the optics involved that one would na\"{i}vely expect, but also the solid state physics of the light sources. I also devised \textsc{MATLAB} code as a means of analysing and graphing the over 300~MB of raw data obtained from the associated photodiode. Because of this experimental skill combined with physical understanding, I achieved an 85\% in the hour-long interview about that experiment. In the second year option module \textit{Computational Physics}, I had to create a Monte Carlo simulation of neutrons as they penetrated through a variety of materials, and then document my associated analysis. I am capable not only of individual work, such as the case of my Monte Carlo Simulation and many hours studying for my degree, but also working as part of a team such as with my lab partner.  
+
+%The upcoming series of experiments by physicists around the world is really exciting, and I would love to be a part of it in the long-term --- I can definitely see myself performing neutrino research for my MPhys project, and even as a postgraduate. I look forward to hearing from you so that I can start my journey in this field.
+
+%\makeletterclosing % Print letter signature
+
+%----------------------------------------------------------------------------------------
+\clearpage
+\makecvtitle % Print the CV title
+%I am interested in seeing whether this prints in a sensible manner.
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+\cventry{2015--2018}{The University of Manchester}{MPhys (Hons) Physics}{Three-year average:~\textbf{88.7\%}}{}{}  % Arguments not required can be left empty
+\cvlistitem{Obtained a very strong command of core physics, evidenced by consistent high first-class exam results as well as \textbf{91\%} \& \textbf{85\%} in successive general physics papers. These general paper results also indicate my ability to problem-solve in areas across physics.}{}
+\cvlistitem{For my MPhys project, I helped to further progress a novel analysis technique for signal--background discrimination in the search for $HH\to bb\tau\tau$ events within the ATLAS experiment, a crucial channel for the measurement of the Higgs self-coupling constant. In collaboration with my lab partner and under the supervision of Prof. Terry Wyatt, I used both data \& Monte Carlo events obtained from the ATLAS collaboration to see how the discrimination technique would perform for the similar-yet-distinct process of $ZH\to\tau\tau bb$. Attempting to detect either signal process is extraordinarily challenging given that both have very small cross-sections relative to the dominant background ($t\bar{t}\to\tau\tau bb$), which is difficult to reconstruct itself. Regardless, I have learned about Monte Carlo event weighting, tau- and b-jet reconstruction, as well as more technical aspects of using the \textsc{ROOT} software framework. I am continuing this project for the rest of the academic year, and plan to develop new kinematic discriminators, as well as use machine-learning techniques such as boosted decision trees.}
+\cvlistitem{Gained significant knowledge about the wider field of particle physics, shown by the \textbf{96\%} I achieved in the third-year \textit{Particle Physics} module. In addition, I am taking two further particle physics modules in my fourth year, which look at the frontiers of the field.}
+\cvlistitem{Established an excellent understanding of theoretical physics and the associated mathematics involved. I have chosen all theoretical physics options where possible, and have achieved some of my best marks in these modules: \textbf{97\%} in \textit{Mathematical Fundamentals of Quantum Mechanics}, for example. I am also taking courses on Quantum Field Theory and General Relativity at the moment.}
+\cvlistitem{Developed numerous skills related to experimental physics via three full years of laboratory as well as my MPhys project. I had to work in a calm, systematic, but also creative manner to solve all manner of practical dilemmas that arose naturally through the scientific process. I successfully worked with my lab partner throughout to obtain the best data and analysis possible, and then defend our results in front of interviewers.}{}
+\cvlistitem{Learned a number of computational techniques for use in analysis,  both formally in taught courses such as \textit{Introduction to Programming for Physicists} \& \textit{Computational Physics}, as well as self-teaching various elements for use in both undergraduate laboratory and my MPhys project. As a result, I am proficient in the \textsc{Python}, \textsc{C/C++}, and \textsc{MATLAB} programming languages. I have been able to write and execute code in the above variety of contexts in which I performed large-scale file reading/writing, the creation and use of abstract classes \& header files, Monte Carlo simulations, for example.}{}
+\cvlistitem{Became adept at communication of scientific ideas in a variety of settings, from the presentation of experimental results in numerous lab interviews and reports, as well as explaining areas of challenging physics to different audiences (such as the general public) via multiple essays.}{}
+\cventry{2008--2015}{Weston Favell Academy, Northampton}{}{}{}{}
+\cvlistitem{A Levels: Mathematics (\textbf{A*}), Further Mathematics (\textbf{A*}), Physics (\textbf{A*}), Chemistry (\textbf{A*})\\Gained the best A level results in my school's history, and one of the best in the county for that year. Was consequently interviewed by local BBC radio about my results.}{}
+\cvlistitem{GCSES:   9 (3A*, 5A, 1B) including Maths and English.}{}
+
+%----------------------------------------------------------------------------------------
+%	COMPUTER SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+%\section{Computer skills}
+
+%\cvitem{Python}{Self-taught fundamentals of the language before university through MIT's\textit{ OpenCourseWare} site, then consolidated by formal teaching and further practice.}
+%\cvitem{C/C++}{Learned essentials in second-year computing course, and have educated myself on a number of more complex techniques such as pointers and object-oriented programming.}
+%\cvitem{\textsc{MATLAB}}{Became proficient after use in the multiple projects of the\textit{Computational Physics} course. Used also to solve a number of data-analysis problems in third-year lab, such as the systematic formation of spectral graphs from numerous large data files.}
+%\cvitem{\LaTeX}{Learned on my own as a means of typesetting essays and reports during my degree.}
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Experience}
+\cventry{June--July 2018}{Summer Placement}{Particle Physics Group}{The University of Manchester}{}{}
+\cvlistitem{Developed Monte Carlo simulations of supernova neutrino events within the light detection system of the upcoming DUNE single-phase far detector, working under the supervision of Dr. Andrzej Szelc. In particular, my simulations were designed to determine the potential benefit of adding a VUV-reflecting substance onto the detector's cathode plane assembly as a means of increasing light yield. I also investigated the plausibility of using the scintillation light's timing information as a further method of position reconstruction within the detector.}{}
+\cvlistitem{Performed this analysis through the use of a so-called ``\textit{photon library}'', a large data set associated with the detector setup created by my colleagues. I self-taught the software framework \textsc{ROOT} for \textsc{C++} within the HEP group's Linux computer system as a means of effectively performing analysis on a data set of this size. In the process of performing the Monte Carlo analysis, I observed and correctly characterised an anomaly within the photon library that was due to a mistake in its creation.}{}
+\cvlistitem{Gained a strong understanding of the design of the single-phase DUNE far detector (as well as LArTPCs as a whole), notably the proposed light detection system.}{}
+\cvlistitem{Presented results of project to both the DUNE SP working group as well as members of the department as a whole. To document my results and provide a helpful guide to the code I created for my successors, I also created an associated report for the project.}{}
+
+\section{Other Experience}
+\cventry{November 2016--March 2018}{Ambassador}{School of Physics \& Astronomy}{The University of Manchester}{}{Spent two hours every week during interview season talking with prospective students from across the globe who had arrived for their UCAS interviews. Helped applicants to understand the nature of the course, the atmosphere of the university and city, and gave a taste of what exciting things that they could look forward to if they did this degree course. After a year spent performing this on a voluntary basis, I was paid for my work in the second year.}
+
+\cventry{November 2018}{Volunteer}{Code Club}{}{}{Went into a local primary school to help lead their after-school code club, which used the language \textit{Scratch} to teach the basics of computer programming to 7--10 year-olds. This helped to further develop my skill for explaining complex ideas in a simple way.}
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS SECTION
+%----------------------------------------------------------------------------------------
+%\bigskip
+
+\section{Interests \& Activities}
+
+\cvlistitem{Scout for over twelve years, five of which I helped to lead the group}{}
+\cvlistitem{Quidditch player for the University of Manchester}{}
+
+%\makecvfooter{\textit{References available on request.}}
+
+\end{document}
